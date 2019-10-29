@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A simple Backend supporting the visualization demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "RESTful",
+    "JSON"
+  ],
+  "author": "Su Gao",
+  "license": "ISC"
+}
