@@ -26,8 +26,6 @@ const dbObj = (() => {
   };
 })();
 const dbLength = dbObj['data'].length;
-// console.log('dbObj length');
-// console.log(dbObj['signal'].length);
 
 // Generate Json object to response quest
 const mkResponse = (res) => {
@@ -59,9 +57,6 @@ const next = res => {
 
 const server = http.createServer((req, res) => {
   let url = req.url;
-  // let url2 = url.substring(0, 2);
-  console.log('url:', url);
-  // console.log('url:', url, '  url2:', url2);
   res.setHeader('Access-Control-Allow-Origin', '*');
   switch (url) {
     case '/init':
